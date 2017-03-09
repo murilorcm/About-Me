@@ -59,7 +59,7 @@ h1 {
 
 /*	padding: 60px 15px 50px 15px;*/
 .conteudo {
-	width: 100%;
+	width: 90%;
 	margin: auto;
 	min-height: 500px;
 	
@@ -73,4 +73,11 @@ article {
 	height: 290px;
 	border: 1px 0px 1px 0px solid #e7e7e7;
     background-color: #f3f3f3;
+}
+
+
+/* TESTEEEE */
+
+form {
+	float: left;
 }
