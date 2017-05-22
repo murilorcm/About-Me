@@ -1,13 +1,14 @@
 .container {
-	margin: auto;
-	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 body {
 	margin: 0;
-	padding: 0;	
-	background-color: #FFF;
+	padding: 0;
+	background-color: #f3f3f3;
 	text-align: justify;
-	font-family: Lucida Console;
+	font-family: 'Roboto Mono', monospace;
 }
 
 /* MENU DE NAVEGAÇÃO */
@@ -21,8 +22,9 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px 0px 1px 0px solid #e7e7e7;
-    background-color: #f3f3f3;
+    border-top: 10px solid #004141;
+		border-bottom: 1px dashed #004141;
+    background-color: #56B48C;
 }
 
 .menu li {
@@ -31,53 +33,44 @@ body {
 
 .menu a {
     display: block;
-    color: #666;
+    color: #f3f3f3;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
 }
 
 .menu a:hover:not(.active) {
-    background-color: #ddd;
+    background-color: #004141;
 }
 
 .menu a.active {
-    color: #fff;
-    background-color: #b3b3b3;
+    color: #f3f3f3;
+    background-color: #004141;
 }
 .menu li.contato {
 	float: right;
 }
+/* MENU DE NAVEGAÇÃO */
 a {
-	color: #666;
+	color: #f3f3f3;
 	text-decoration: none;
 }
 h1 {
 	float: right;
 	margin-right: 30px;
+	font-size: 2em;
 }
 
-/*	padding: 60px 15px 50px 15px;*/
-.conteudo {
-	width: 90%;
-	margin: auto;
-	min-height: 500px;
-	
-}
 article {
 	padding: 60px 10px 50px 15px;
 }
-.footer {
+footer {
 	margin: auto;
+	padding: 26px;
 	width: 100%;
-	height: 290px;
-	border: 1px 0px 1px 0px solid #e7e7e7;
-    background-color: #f3f3f3;
+	border-top: 1px solid #004141;
+  background-color: #94C4AF;
 }
 
 
-/* TESTEEEE */
-
-form {
-	float: left;
-}
+/* TESTEEEE */	
