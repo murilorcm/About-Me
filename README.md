@@ -1,2 +1,2 @@
-# minhapaginapessoal
-Minha Página pessoal feita para a disciplina de DWEl5
+# About Me
+Intuito de sempre atualizar esta página com o melhor que eu posso fazer.
